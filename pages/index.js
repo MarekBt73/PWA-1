@@ -37,7 +37,7 @@ const handleSubmit = (e) => {
 }
 
   return (
-    <div className={styles.container}>
+    <div className="bg-slate-400"  >
       <h1>Hallo Next</h1>
       <div className={styles.form_wrapper}>
         <form  className={styles.form_1} action="/api/form" method="post" onSubmit={handleSubmit}>
@@ -52,8 +52,8 @@ const handleSubmit = (e) => {
           
           <label htmlFor='adres1'>
             Adres 
-            <input required type='text' name='adres1' id='adres1'  onChange={handleAdres1}/></label>
-            <input type='submit' value='zapisz'  />
+            <input  required type='text' name='adres1' id='adres1'  onChange={handleAdres1}/></label>
+            <input type='submit' value='zapisz' className='border-slate-900 border-solid rounded-sm bg-red-800' />
          
         </form>
       </div>
