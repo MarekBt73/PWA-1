@@ -1,7 +1,4 @@
-
-import styles from "../styles/Home.module.css";
-import { useState } from "react";
-import Head from 'next/head';
+import React, { useState } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -110,7 +107,7 @@ const data = {
 
 
 const JSONdata = JSON.stringify(data)
-const endpoint = '/api/form'
+const endpoint = '../../api/form'
 
 const options = {
       // The method is POST because we are sending data.
@@ -155,7 +152,7 @@ const options = {
           <Typography component="h1" variant="h5">
             Sign up
           </Typography>
-          <Box component="form" action="/api/form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+          <Box component="form" action="../../api/form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
@@ -237,4 +234,3 @@ const options = {
     </ThemeProvider>
   );
 }
-

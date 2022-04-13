@@ -8,12 +8,12 @@ export default function handler(req, res) {
 
   // Guard clause checks for first and last name,
   // and returns early if they are not found
-  if (!body.name1 || !body.name2 || !body.first || !body.last ) {
+  if (!body.email || !body.password || !body.imie || !body.nazwisko || !body.akceptacja ) {
     // Sends a HTTP bad request error code
-    return res.status(400).json({ data: 'First or last name not found' })
+    return res.status(400).json({ data: 'DANE NIE ZOSTALY ROZPOZNANE' })
   }
 
   // Found the name.
   // Sends a HTTP success code
-  res.status(200).json({ data: `${body.name1} ${body.name2} ${body.adres1} ${body.first} ${body.last}` })
+  res.status(200).json({ data: `${body.email} ${body.password} ${body.imie} ${body.nazwisko} ${body.akceptacja}` })
 }
