@@ -135,7 +135,7 @@ data = {
               <LockOutlinedIcon />
             </Avatar>
             <Typography component='h1' variant='h5'>
-              Sign up
+             Logowanie do Racus.pl
             </Typography>
             <Box component='form' action='/api/form' noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
               <Grid container spacing={2}>
@@ -197,7 +197,7 @@ data = {
                 </Grid>
               </Grid>
               <Button className='bg-blue-800' type='submit' fullWidth variant='contained' sx={{ mt: 3, mb: 2 }}>
-                Sign Up
+                Logowanie
               </Button>
               <Grid container justifyContent='flex-end'>
                 <Grid item>
