@@ -211,7 +211,9 @@ data = {
           <Copyright sx={{ mt: 5 }} />
         </Container>
       </ThemeProvider>
-      <Script src="/app1.js" />
+      <Script src="/app1.js" /> 
+      <Script src="/sw.js" /> 
+
     </>
   );
 }

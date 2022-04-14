@@ -14,6 +14,7 @@ export default function Document() {
 <link rel="manifest" href="/manifest.webmanifest"></link>
 <link rel="apple-touch-icon" href="/img/icons/icon1-96.png"></link> 
 <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4"></meta>
+<meta name="theme-color" content="#e4e0ee"></meta>
       <body>
         <Main />
         <NextScript  />
