@@ -1,0 +1,30 @@
+{
+    "short_name": "Racus-PWA",
+    "name": "Racus-PWA",
+    "description": "Czas zaczac",
+    "orientation": "portrait-primary",
+    "icons": [{
+            "src": "/icon1-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/icon1-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icon1-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "shortcuts": [],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "id": "/",
+    "theme_color": "#000000"
+
+}
