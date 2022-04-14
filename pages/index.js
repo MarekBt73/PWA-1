@@ -212,8 +212,8 @@ data = {
         </Container>
       </ThemeProvider>
       <Script src="/app1.js" /> 
-      <Script src="/sw.js" /> 
-
+    
+      
     </>
   );
 }
